@@ -2,13 +2,14 @@ import 'package:co_sport_map/ui/auth/auth_widget.dart';
 import 'package:co_sport_map/ui/register/register_widget.dart';
 import 'package:co_sport_map/ui/theme/app_colors.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       title: 'Co sport',
       theme: ThemeData(
         appBarTheme: const AppBarTheme(
