@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "755135612755",
+    "firebase_url": "https://cosport-debd8-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "cosport-debd8",
+    "storage_bucket": "cosport-debd8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755135612755:android:1b79e3d6625744bdac43a6",
+        "android_client_info": {
+          "package_name": "com.cosport.co_sport_map"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755135612755-o275itfk3ae5begb3v4mm7m5bi0encrr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAojfmyUePkUayENo0jPX9NO6BonP6rtwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755135612755-o275itfk3ae5begb3v4mm7m5bi0encrr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
