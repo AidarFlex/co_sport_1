@@ -1,3 +1,4 @@
+import 'package:co_sport_map/constants/app_routes.dart';
 import 'package:co_sport_map/ui/auth/auth_widget.dart';
 import 'package:co_sport_map/ui/register/register_widget.dart';
 import 'package:co_sport_map/ui/theme/app_colors.dart';
@@ -21,11 +22,8 @@ class MyApp extends StatelessWidget {
                 fontWeight: FontWeight.w500)),
         backgroundColor: AppColors.backgroundColor,
       ),
-      routes: {
-        '/auth': (context) => const AuthWidget(),
-        '/auth/registration': (context) => const RegisterWidget(),
-      },
-      initialRoute: '/auth',
+      initialRoute: "/register",
+      getPages: AppRoutes.routes,
     );
   }
 }
