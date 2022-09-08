@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "755135612755-agktd52jsbamn8a136gkrkg6t77qkfi3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cosport.co_sport_map",
+            "certificate_hash": "595d0aaeaa6592c217fd666598b273384b1c8ca6"
+          }
+        },
+        {
           "client_id": "755135612755-o275itfk3ae5begb3v4mm7m5bi0encrr.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -30,6 +38,57 @@
             {
               "client_id": "755135612755-o275itfk3ae5begb3v4mm7m5bi0encrr.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "755135612755-tks4ceo812g3b1l0oo38viip9o0453rp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.coSportMap"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755135612755:android:dc3a4c02920a0d53ac43a6",
+        "android_client_info": {
+          "package_name": "com.example.co_sport_map"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755135612755-ns1n72cr2n6ss9pnlf95lc5tq82pou4v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.co_sport_map",
+            "certificate_hash": "f5c5b7429cbebc382c792b2e055110003f66fe76"
+          }
+        },
+        {
+          "client_id": "755135612755-o275itfk3ae5begb3v4mm7m5bi0encrr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAojfmyUePkUayENo0jPX9NO6BonP6rtwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755135612755-o275itfk3ae5begb3v4mm7m5bi0encrr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "755135612755-tks4ceo812g3b1l0oo38viip9o0453rp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.coSportMap"
+              }
             }
           ]
         }

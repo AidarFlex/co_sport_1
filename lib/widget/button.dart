@@ -21,22 +21,22 @@ class Button extends StatefulWidget {
 class _ButtonState extends State<Button> {
   @override
   Widget build(BuildContext context) {
-    return RaisedButton(
+    return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 24.0, vertical: 12.0),
-      textColor: Colors.white,
-      elevation: 0,
-      color: widget.myColor,
-      child: Text(
-        widget.myText,
-        style: const TextStyle(
-            color: Colors.white, fontSize: 18, fontWeight: FontWeight.w600),
-      ),
-      onPressed: widget.onPressed ??
-          () {
-            Navigator.pushNamed(context, widget.routeName!);
-          },
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(16.0),
+      child: ElevatedButton(
+        style: ElevatedButton.styleFrom(
+          backgroundColor: widget.myColor,
+          elevation: 0,
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(16.0)),
+        ),
+        child: Text(
+          widget.myText,
+          style: const TextStyle(
+              color: Colors.white, fontSize: 18, fontWeight: FontWeight.w600),
+        ),
+        onPressed: widget.onPressed ??
+            () => Navigator.pushNamed(context, widget.routeName!),
       ),
     );
   }

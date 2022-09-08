@@ -72,7 +72,7 @@ class OtherProfileBody extends StatefulWidget {
 class _OtherProfileBodyState extends State<OtherProfileBody> {
   @override
   Widget build(BuildContext context) {
-    if (OtherUserProfile?.of(context)!._loading) {
+    if (OtherUserProfile.of(context)!._loading) {
       return Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,

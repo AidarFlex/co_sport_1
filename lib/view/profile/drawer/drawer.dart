@@ -1,6 +1,6 @@
 import 'package:co_sport_map/services/auth.dart';
 import 'package:co_sport_map/utils/theme_config.dart';
-import 'package:co_sport_map/widget/drower_button.dart';
+import 'package:co_sport_map/widget/animations/drower_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_feather_icons/flutter_feather_icons.dart';
 import 'package:provider/provider.dart';
